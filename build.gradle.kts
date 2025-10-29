@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.2.20"
+    kotlin("jvm") version "2.2.21"
     application
 }
 
@@ -12,6 +12,6 @@ application {
 }
 
 dependencies {
-    implementation("ai.koog:koog-agents:0.4.2")
+    implementation("ai.koog:koog-agents:0.5.2")
     implementation("org.slf4j:slf4j-simple:2.0.9")
 }
